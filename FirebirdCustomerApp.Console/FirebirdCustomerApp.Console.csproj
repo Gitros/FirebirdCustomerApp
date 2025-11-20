@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="10.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirebirdCustomerApp.Application\FirebirdCustomerApp.Application.csproj" />
+    <ProjectReference Include="..\FirebirdCustomerApp.Infrastructure\FirebirdCustomerApp.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
